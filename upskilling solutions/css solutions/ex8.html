@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercise 8</title>
+
+<style>
+
+/* Event Card Styling */
+.eventCard{
+    border: 3px solid blue;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Form Field Outline */
+.selected-field{
+    outline: 3px solid red;
+    padding: 8px;
+}
+
+/* Visibility Hidden Example */
+.hidden-box{
+    visibility: hidden;
+    background-color: yellow;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Display None Example */
+.none-box{
+    display: none;
+    background-color: lightgreen;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>Exercise 8 - Box Model</h1>
+
+<div class="eventCard">
+
+    <h2>Community Meeting</h2>
+
+    <p>
+        This card demonstrates margin, padding, and border.
+    </p>
+
+</div>
+
+<h3>Selected Form Field</h3>
+
+<input type="text"
+       class="selected-field"
+       placeholder="Enter your name">
+
+<h3>Visibility Examples</h3>
+
+<div class="hidden-box">
+    visibility:hidden (Space Reserved)
+</div>
+
+<div class="none-box">
+    display:none (No Space Reserved)
+</div>
+
+<p>
+    Notice that the hidden box occupies space while the display:none box does not.
+</p>
+
+</body>
+</html>

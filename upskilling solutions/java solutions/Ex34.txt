@@ -1,0 +1,70 @@
+Exercise 34 - Create and Use Java Modules
+
+Folder Structure
+
+com.utils
+│
+├── module-info.java
+└── Utils.java
+
+com.greetings
+│
+├── module-info.java
+└── Greetings.java
+
+
+module-info.java (com.utils)
+
+module com.utils {
+    exports com.utils;
+}
+
+
+Utils.java
+
+package com.utils;
+
+public class Utils {
+
+    public static void greet() {
+
+        System.out.println(
+                "Hello from Utils Module"
+        );
+    }
+}
+
+
+module-info.java (com.greetings)
+
+module com.greetings {
+
+    requires com.utils;
+}
+
+
+Greetings.java
+
+package com.greetings;
+
+import com.utils.Utils;
+
+public class Greetings {
+
+    public static void main(String[] args) {
+
+        Utils.greet();
+    }
+}
+
+
+Compile Commands
+
+javac -d mods/com.utils com.utils/module-info.java com.utils/Utils.java
+
+javac --module-path mods -d mods/com.greetings com.greetings/module-info.java com.greetings/Greetings.java
+
+
+Run Command
+
+java --module-path mods -m com.greetings/com.greetings.Greetings

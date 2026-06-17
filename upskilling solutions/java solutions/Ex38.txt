@@ -1,0 +1,34 @@
+Exercise 38: Decompile a Java Class
+
+Step 1:
+Create Ex38.java
+
+public class Ex38 {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello Java");
+    }
+}
+
+Step 2:
+Compile
+
+javac Ex38.java
+
+Step 3:
+Generate Class File
+
+Ex38.class
+
+Step 4:
+Open the class file using:
+
+1. JD-GUI
+2. CFR Decompiler
+3. IntelliJ Bytecode Viewer
+
+Observe how the original source code is reconstructed.
+
+Purpose:
+Understand reverse engineering and Java bytecode structure.
