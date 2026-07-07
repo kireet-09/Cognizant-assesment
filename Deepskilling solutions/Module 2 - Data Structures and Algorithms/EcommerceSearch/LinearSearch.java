@@ -6,9 +6,9 @@ public class LinearSearch {
      * Average case: O(n/2) which is O(n).
      * Worst case: O(n) when the item is at the end or not present.
      */
-    public static Product search(Product[] products, int key) {
-        for (Product product : products) {
-            if (product.getProductId() == key) {
+    public static Integer search(Integer[] products, int key) {
+        for (Integer product : products) {
+            if (product == key) {
                 return product;
             }
         }
