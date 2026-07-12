@@ -1,0 +1,4 @@
+com\cognizant\jpademo\OrmCompareApplication.class
+com\cognizant\jpademo\service\EmployeeService.class
+com\cognizant\jpademo\model\Employee.class
+com\cognizant\jpademo\repository\EmployeeRepository.class

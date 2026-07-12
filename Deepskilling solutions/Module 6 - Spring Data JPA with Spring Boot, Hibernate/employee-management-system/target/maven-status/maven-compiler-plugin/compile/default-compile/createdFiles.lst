@@ -1,0 +1,13 @@
+com\cognizant\ems\controller\DepartmentController.class
+com\cognizant\ems\service\DepartmentService.class
+com\cognizant\ems\EmployeeManagementSystemApplication.class
+com\cognizant\ems\repository\DepartmentRepository.class
+com\cognizant\ems\projection\EmployeeProjection.class
+com\cognizant\ems\projection\DepartmentProjection.class
+com\cognizant\ems\entity\Employee.class
+com\cognizant\ems\repository\EmployeeRepository.class
+com\cognizant\ems\config\AuditingConfig.class
+com\cognizant\ems\projection\EmployeeProjection$DepartmentInfo.class
+com\cognizant\ems\controller\EmployeeController.class
+com\cognizant\ems\entity\Department.class
+com\cognizant\ems\service\EmployeeService.class
