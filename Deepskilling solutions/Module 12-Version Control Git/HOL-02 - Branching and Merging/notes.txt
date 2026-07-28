@@ -1,0 +1,19 @@
+Branch Exercise Notes
+=====================
+
+Branch Name: GitNewBranch
+Created from: main
+
+Key Git Commands Used:
+- git branch GitNewBranch       (create branch)
+- git checkout GitNewBranch     (switch to branch)
+- git checkout -b GitNewBranch  (create and switch)
+- git branch -a                 (list all branches)
+- git diff main GitNewBranch    (compare branches)
+- git merge GitNewBranch        (merge branch to main)
+- git branch -d GitNewBranch    (delete branch after merge)
+
+Observations:
+- The '*' mark in 'git branch' output denotes the current branch
+- Changes made in a branch do not affect main until merged
+- After merging, the branch can be safely deleted
