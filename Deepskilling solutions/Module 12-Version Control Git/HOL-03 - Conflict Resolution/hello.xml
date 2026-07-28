@@ -3,4 +3,8 @@
     <message>Hello from main branch</message>
     <author>Main Developer</author>
     <version>main-1.0</version>
+    <branch-message>Hello from GitWork branch</branch-message>
+    <branch-author>GitWork Developer</branch-author>
+    <branch-version>branch-1.0</branch-version>
+    <resolved>true</resolved>
 </hello>

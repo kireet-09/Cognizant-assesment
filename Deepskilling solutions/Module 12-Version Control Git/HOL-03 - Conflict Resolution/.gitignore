@@ -1,0 +1,8 @@
+# Git Ignore Rules for HOL-03
+
+# Ignore merge backup files
+*.orig
+
+# Ignore editor backup files
+*.bak
+*~
