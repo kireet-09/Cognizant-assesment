@@ -1,0 +1,7 @@
+# Git Ignore Rules for HOL-01
+
+# Ignore all .log files
+*.log
+
+# Ignore log directory and its contents
+log/
